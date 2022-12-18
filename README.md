@@ -1,8 +1,6 @@
 # PyDyNet：Neuron Network(DNN, CNN, RNN, etc) implementation using Numpy based on Autodiff
 
-前作：[PyNet: Use NumPy to build neuron network](https://github.com/Kaslanarian/PyNet)。在那里我们基于求导规则实现了全连接网络。在这里，我们向当今的深度学习框架看齐，实现属于自己的DL框架。
-
-**PyDyNet已被多个技术公众号和社区分享**：[居然用Numpy实现了一个深度学习框架](https://segmentfault.com/a/1190000042108301).
+原开源项目下载后直接运行会报错。我 fork 后，稍作修改，下载后可以直接运行。
 
 [![Downloads](https://pepy.tech/badge/pydynet)](https://pepy.tech/project/pydynet)
 [![Downloads](https://static.pepy.tech/personalized-badge/pydynet?period=month&units=international_system&left_color=grey&right_color=orange&left_text=downloads/month)](https://pepy.tech/project/pydynet)

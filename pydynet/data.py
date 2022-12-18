@@ -1,4 +1,5 @@
 from numpy.random import permutation
+import math
 
 
 class Dataset:
@@ -97,6 +98,9 @@ class DataLoader:
 
     def __iter__(self):
         return _DataLoaderIter(self)
+
+    def __len__(self):
+        return math.ceil(len(self.dataset) / self.batch_size)
 
 
 def data_loader(X, y, batch_size: int, shuffle: bool = False) -> list:
